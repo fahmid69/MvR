@@ -1,0 +1,105 @@
+body{
+	background: white;
+	margin-bottom: 20px;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 20px;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.logo{
+	width: 100px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #5481ff;
+}
+
+
+#profile{
+	border: 1px solid black;
+	padding: 10px;
+	align-items: center;
+	background: whitesmoke;
+}
+#profile>img{
+	width: 200px;	
+}
+.info{
+	font-family: 'Roboto Slab', serif;
+	font-size: 10px;
+}
+.title{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+}
+h1{
+	font-family: 'Mukti', sans-serif;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+#blank{
+	background: #F8D7DA;
+	height: 20px;
+}
+body{
+	background: #F4E7D0;
+}
+#description .m{
+	width: 600px;
+	border: 10px solid #2ecc71;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px;
+	padding: 5px;
+	margin-bottom: 20px;}
+#description{
+	padding-bottom: 100px;
+}
+.wiki{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 25px;
+	transition: 0.25s;
+	cursor: pointer;
+	text-decoration: none;
+	width: 300px;
+}
+.wiki:hover{
+	background: #2ecc71;
+	color: #F8D7DA;
+}
+#table{
+	width: 100%;
+	align-items: center;
+}

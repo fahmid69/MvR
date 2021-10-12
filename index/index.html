@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Messi vs. Ronaldo</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+        <a href="index.html"><img class="logo" src="../images/1.jpg" alt="Fahmid"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+	
+	<div class="test">
+		<div id="messi">
+			<h3>Lionel Messi</h3>
+			<img src="../images/messi.jpg" alt="loading..." />
+			
+			<div class="player-info">
+				<p><b>Lionel Andrés Messi</b> is an Argentine professional footballer who plays for and captains the
+					 Argentina national team. He is currently a free agent.<br><strong><u>Born:</u></strong>
+					  June 24, 1987 (age 34 years), Rosario, Argentina<br><strong><u>Height:</u></strong>1.7 m
+					  <br><strong><u>Salary:</u></strong>71 million EUR (2021)<br><strong><u>Club:</u></strong>
+					   FC Barcelona<br><strong><u>National Team:</u></strong> Argentina</p>
+				<a href="messi/messi.html">Learn more about Messi</a>
+			</div>
+		</div>
+		<div id="ronaldo">
+			<h3>Cristiano Rnaldo</h3>
+			<img src="../images/ronaldo.jpg" alt="loading..." />
+			
+			<div class="player-info">
+				<p><b>Cristiano Ronaldo dos Santos Aveiro GOIH ComM</b> is a Portuguese professional footballer
+					 who plays as a forward for Serie A club Juventus and captains the Portugal national team.
+					 <br><strong><u>Born:</u></strong> February 5, 1985 (age 36 years), Funchal, Portugal<br>
+					 <strong><u>Height:</u></strong>1.87 m<br><strong><u>Salary:</u></strong>31 million EUR 
+					 (2021)<br><strong><u>Club:</u></strong> Juventus F.C.<br><strong><u>National Team:</u>
+					</strong> Portugal</p>
+				<a href="ronaldo/ronaldo.html">Learn more about Ronaldo</a>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<table border="1px black solid" width="100%">
+		<tr>
+			<th>Statistics</th>
+			<th>Messi</th>
+			<th>Ronaldo</th>
+		</tr>
+		<tr>
+			<td>Appearance</td>
+			<td>856</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td>Goals</td>
+			<td>697</td>
+			<td>725</td>
+		</tr>
+		<tr>
+			<td>Assists</td>
+			<td>289</td>
+			<td>220</td>
+		</tr>
+	</table>
+	<div id="voting-form">
+		<h2>Who's the best?</h2>
+
+		<form>
+			<p>Your name<br><input type="text" name="name"></p>
+			<p>Who's your favorite player</p>
+			<select name="my-favorite">
+				<option></option>
+				<option value="messi">Lionel Messi</option>
+				<option value="ronaldo">Cristiano Ronaldo</option>
+			</select>
+			<p>Why is he your favorite?<br><textarea name="why-favorite" rows="8" cols="80"></textarea></p>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
